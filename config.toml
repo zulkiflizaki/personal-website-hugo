@@ -1,0 +1,145 @@
+baseURL = "https://zulkiflizaki.my"
+languageCode = "en-us"
+title = "Zulkifli Zaki"
+theme = "avicenna"
+
+# Your Google analytics code.
+googleAnalytics = "UA-1234-6"
+timeout=3000
+relativeURLs = true
+enableEmoji = true
+enableRobotsTXT = true
+copyright = " ©Copyright Zulkifli Zaki"
+
+
+
+[params]
+  subtitle= "PhD Student"
+  interests="Embedded Software and Real-Time Systems, Model-Based Development, Software Analysis and Design"
+  cv_name= "cv-zulkiflizaki-2020.pdf"
+  blog="/posts/"
+
+[[params.affilation]]
+  name = "RWTH Aachen University"
+  position = "PhD Student"
+  contact = "zaki@embedded.rwth-aachen.de"
+
+[[params.affilation]]
+  name = "Universiti Sains Malaysia"
+  position = "RLKA Fellow"
+  contact = "zulkiflizaki@gmail.com"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/zulkiflizaki"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/zulkiflizaki"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://linkedin.com/in/zulkiflizaki/"
+
+
+[[params.introduction.paragraph]]
+  text="""
+  Currently finishing PhD at Lehrstuhl Informatik 11 - Embedded Software of RWTH Aachen University, Germany under the supervision of Prof. Dr. -Ing. Stefan Kowalewski.
+   """
+[[params.introduction.paragraph]]
+  text="""
+  Previously, I received my M.Sc. in Computer Science from University Teknologi Malaysia, Johor Bahru, Malaysia. My research focus on software analysis and design, specifically model-based development. I applied model-based analysis and design on the development of embedded software and real-time systems under the supervision of Associate Prof. Dr. Dayang Norhayati Abang Jawawi.
+  """
+
+
+[[params.projects]]
+	[[params.projects.project]]
+		name = "Automated Traceability Recovery Tool for Model-Based Software Artefacts"
+		description  = "A research tool for facilitate trace links recovery for model-based software artefacts of embedded software."
+		project_page = ""
+		code_link = ""
+		blog_link = ""
+
+
+[[params.publications]]
+  year="Preprint"
+
+  [[params.publications.paper]]
+    name = "Agent-based Techniques for Requirements Tracing"
+    authors = "Karsten Jungnitsch, __Mohd Zulkifli Mohd Zaki__"
+    dest  = "2018 Winter Seminar of Embedded Software"
+    link = "https://embedded.rwth-aachen.com"
+    code_link = ""
+    blog_link = ""
+
+  [[params.publications.paper]]
+    name = "Adaptation of Physical-Based Frameworks for Information Retrieval Improvement"
+    authors = "Maximilian Conze, __Mohd Zulkifli Mohd Zaki__"
+    dest  = "2018 Winter Seminar of Embedded Software"
+    link = "https://embedded.rwth-aachen.com"
+    code_link = ""
+    blog_link = ""
+
+
+[[params.publications]]
+  year="2016"
+
+  [[params.publications.paper]]
+		name = "Integrated MARTE-based Model for Designing Component-Based Embedded Real-Time Software"
+		authors = "__Mohd Z.M. Zaki__, Dayang N.A. Jawawi and Mohd Adham Isa"
+		dest  = "International Journal of Software Engineering and Its Application"
+		link = "https://www.semanticscholar.org/paper/Integrated-MARTE-based-Model-for-Designing-Embedded-Zaki-Jawawi/78b9b6118af1dcb20e0f9a14de8c4edc0c47a3a9"
+		code_link = ""
+		blog_link = ""
+
+[[params.publications]]
+  year="2015"
+
+  [[params.publications.paper]]
+		name = "Multi-Attribute Architecture Design Decision for Core Asset Derivation"
+		authors = "Shahliza A. Halim, Dayang N.A. Jawawi, __M. Zulkifli M. Zaki__, Noraini Ibrahim, and Safaai Deris"
+		dest  = "Jurnal Teknologi (Sciences and Engineering)"
+		link = "https://jurnalteknologi.utm.my/index.php/jurnalteknologi/article/view/6187"
+		code_link = ""
+		blog_link = ""
+
+  [[params.publications.paper]]
+		name = "Introducing Computer Programming to Secondary School Students using Mobile Robots"
+		authors = "Dayang N.A. Jawawi, Rosbi Mamat, Fakhitah Ridzuan, Muhammad Khatibsyarbini and __M. Zulkifli M. Zaki__"
+		dest  = "10th Asian Control Conference 2015 (ASCC 2015)"
+		link = "https://ieeexplore.ieee.org/document/7244750"
+		code_link = ""
+		blog_link = ""
+
+[[params.publications]]
+  year="2014"
+
+  [[params.publications.paper]]
+		name = "Model-Driven Estimation Approach for System Reliablity Using Integrated Tasks and Resources"
+		authors = "M.A.Isa, Dayang N.A. Jawawi and __Mohd Z.M. Zaki__"
+		dest  = "Software Quality Journal"
+		link = "https://link.springer.com/article/10.1007/s11219-013-9209-z"
+		code_link = ""
+		blog_link = ""
+
+  [[params.publications.paper]]
+		name = "Fuzzy AHP based Design Decision for Product Line Architecture"
+		authors = "Shahliza A Halim, Safaai Deris and __M. Zulkifli M. Zaki__"
+		dest  = "The 8th Malaysia Software Engineering Conference (MySEC’14)"
+		link = "https://ieeexplore.ieee.org/document/6986000"
+		code_link = ""
+		blog_link = ""
+
+[[params.publications]]
+  year="2013"
+
+  [[params.publications.paper]]
+		name = "Multi-Criteria Architecture Style Selection for Precision Farming Software Product Lines using Fuzzy AHP"
+		authors = "__Mohd Z.M. Zaki__, Dayang N.A. Jawawi, Norazian M. Hamdan, Shahliza Abd. Halim, Rosbi Mamat, Fairuz S. Mahat and Nur Athirah Omar"
+		dest  = "International Journal of Advances in Soft Computing and Its Application"
+		link = "https://www.semanticscholar.org/paper/Multi-Criteria-Architecture-Style-Selection-for-AHP-Zaki-Jawawi/a0eb936e10c4e8591823d7010577943dac5dba8c"
+		code_link = ""
+		blog_link = ""
