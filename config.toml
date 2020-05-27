@@ -1,7 +1,7 @@
 baseURL = "https://zulkiflizaki.my"
 languageCode = "en-us"
 title = "Zulkifli Zaki"
-theme = "avicenna"
+# theme = "avicenna"
 
 # Your Google analytics code.
 googleAnalytics = "UA-1234-6"

@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+{{ $projectLogo := "logo.png" | printf "%s%s" .File.Dir }}
+
+{{ if fileExists $projectLogo -}}
+<div class="header">
+  <img src="logo.png" class="logo">
+</div>
+{{- end}}
+
+<div class="header wrapper">
+  <span class="page_title">
+    {{ title .Title }}
+  </span>
+  <div class="page_meta">Posted at &mdash; {{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</div>
+</div>
+
+
+<div class="content wrapper">
+  {{ .Content }}
+  <a href="{{ .Site.BaseURL }}" title="Home">Return Home</a>
+</div>
+
+{{end}}
