@@ -1,4 +1,4 @@
-baseURL = "https://zulkiflizaki.my"
+baseURL = "https://www.zulkiflizaki.my"
 languageCode = "en-us"
 title = "Zulkifli Zaki"
 # theme = "avicenna"
@@ -14,7 +14,7 @@ copyright = " ©Copyright Zulkifli Zaki"
 
 
 [params]
-  subtitle= "PhD Student"
+  subtitle= "Software Engineer"
   interests="Embedded Software and Real-Time Systems, Model-Based Development, Software Analysis and Design"
   cv_name= "cv-zulkiflizaki-2020.pdf"
   blog="/posts/"
