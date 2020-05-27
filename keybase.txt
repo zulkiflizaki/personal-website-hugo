@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/zulkiflizaki
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://zulkiflizaki.my
+  * I am zulkiflizaki (https://keybase.io/zulkiflizaki) on keybase.
+  * I have a public key ASAZgDf55xFC8kVkYpy-m6jssGck908VP5wbsHzKyI8Jjgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120198037f9e71142f24564629cbe9ba8ecb06724f74f153f9c1bb07ccac88f098e0a",
+      "host": "keybase.io",
+      "kid": "0120198037f9e71142f24564629cbe9ba8ecb06724f74f153f9c1bb07ccac88f098e0a",
+      "uid": "19a79c4e5a5f3204208d5855f233f419",
+      "username": "zulkiflizaki"
+    },
+    "merkle_root": {
+      "ctime": 1590566815,
+      "hash": "6b913a5a526fd61a335aefe418f1e03002ed47f9da5042b9be70dcd7714c44a972351d47346135703c5f50d8306ecd8c8f7ad9c25d270428202740c22378afde",
+      "hash_meta": "e8e80eaae9839d80ac5e81bf9204d330daaa05291db664fdb390737724a0995d",
+      "seqno": 16417543
+    },
+    "service": {
+      "entropy": "Cfa2zaMEhRKATvkHpD0KflCl",
+      "hostname": "zulkiflizaki.my",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1590566893,
+  "expire_in": 504576000,
+  "prev": "660e9b0a4fac4b43125dd370c384f02d718f7b7bf6099ead21c529df3dba2507",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgGYA3+ecRQvJFZGKcvpuo7LBnJPdPFT+cG7B8ysiPCY4Kp3BheWxvYWTESpcCE8QgZg6bCk+sS0MSXdNww4TwLXGPe3v2CZ6tIcUp3z26JQfEIJwti3y4bGeYOpvhjgCWTdRUngqSUx7gqAw0TftWIdN/AgHCo3NpZ8RAuyEtXCpa4okTZyESiSHTSNIKntwtTnKyftVCmSlIFouqCW7F78pa1o1mQaWXuEm2madSzyATJ4n/EsoKnpKhA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICRL450GccZYylqJw9jA0YrzDkzVIWR623Z3xJM+qc6mo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zulkiflizaki
+
+==================================================================
