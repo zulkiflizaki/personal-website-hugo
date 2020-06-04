@@ -285,6 +285,71 @@ ul {
   height: auto;
 }
 
+
+/* header for blog */
+.header-blog {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.header-blog h1,
+.header-blog h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+.header-blog h2 {
+  font-size: 1.125rem;
+}
+
+.header-blog nav {
+  margin-top: 20px;
+  border-top: 1px solid #f4f4f4;
+}
+
+.header-blog nav ul,
+.header-blog nav li {
+  margin: 0;
+}
+
+.header-blog nav ul.flat {
+  padding: 0;
+}
+
+.header-blog nav ul.flat li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.header-blog .site-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-blog .site-description nav {
+  margin: 0;
+  padding: 0;
+  border: none;
+  min-width: 50px;
+  margin-left: 15px;
+}
+
+.header-blog .site-description nav ul svg {
+  max-height: 15px;
+}
+
+.blog-title-link {
+  color: #333;
+  text-decoration: none !important;
+}
+
+
 .page_title {
   font-family: Ubuntu;
   font-weight: bolder;
@@ -337,7 +402,7 @@ ul {
     margin: 0em .9em 0em;
 }
 
-.blog_cv {
+.home-blog-cv {
     font-family: "Ubuntu Mono";
     font-size: 17px;
     /* margin: 0em .9em 0em; */
@@ -393,6 +458,20 @@ ul {
   border-top: 1px solid #f4f4f4;
   padding: 20px 0;
   margin-top: 40px;
+}
+
+.footer .site-affilation .position {
+  /* color: #a00; */
+  /* font-size: 14px; */
+  /* display: block; */
+  font-family: Ubuntu;
+  /* font-weight: bolder; */
+}
+
+.footer .site-affilation nav {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 .page-title {

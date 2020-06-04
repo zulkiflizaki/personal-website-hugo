@@ -12,13 +12,14 @@
   <span class="page_title">
     {{ title .Title }}
   </span>
-  <div class="page_meta">Posted at &mdash; {{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</div>
+  <ul class="flat">
+    <li class="page_meta">{{ .Date.Format "January 2, 2006" }}</li>
+  </ul>
 </div>
 
 
 <div class="content wrapper">
-  {{ .Content }}
-  <a href="{{ .Site.BaseURL }}" title="Home">Return Home</a>
+  {{ .Content | markdownify }}
 </div>
 
 {{end}}

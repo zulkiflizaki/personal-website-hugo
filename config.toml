@@ -9,15 +9,23 @@ timeout=3000
 relativeURLs = true
 enableEmoji = true
 enableRobotsTXT = true
-copyright = " ©Copyright Zulkifli Zaki"
+copyright = "&copy; Zulkifli Zaki {year}"
 
+# Number of posts to show in recent posts list (Optional). Defaults to 10.
+paginate = 10
 
+# Number of characters to show in summary.
+summaryLength = 20
 
 [params]
   subtitle= "Software Engineer"
   interests="Embedded Software and Real-Time Systems, Model-Based Development, Software Analysis and Design"
   cv_name= "cv-zulkiflizaki-2020.pdf"
-  blog="/posts/"
+  blog="/post/"
+  home="/"
+
+  # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
+  featherIconsCDN = true
 
 [[params.affilation]]
   name = "RWTH Aachen University"

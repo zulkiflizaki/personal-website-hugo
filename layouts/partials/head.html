@@ -10,7 +10,7 @@
 			</ul>
 			{{- end -}}
 		</span>
-		<!--
+	<!--
       {{- if isset .Site.Params "subtitle" -}}
       <h2>{{ .Site.Params.Subtitle | markdownify }}</h2>
       {{- end -}}
@@ -24,11 +24,11 @@
 				{{ if or (.Site.Params.blog) (.Site.Params.cv_name) }}
 				|
 				{{- with .Site.Params.blog -}}
-				<a href="{{ . }}" class="blog_cv">[blog]</a>
+				<a href="{{ . }}" class="home-blog-cv">[blog]</a>
 				{{- end -}}
 
 				{{ with .Site.Params.cv_name }}
-				<a href="{{ . }}" class="blog_cv">[cv]</a>
+				<a href="{{ . }}" class="home-blog-cv">[cv]</a>
 				{{ end }}
 				{{ end }}
 			</ul>

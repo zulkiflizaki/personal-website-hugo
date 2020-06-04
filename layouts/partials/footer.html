@@ -1,6 +1,12 @@
 <div class="footer wrapper">
-	<nav class="nav">
-		<div> {{ with .Site.Copyright }} {{ . }} | {{ end }} <a href="https://github.com/hadisinaee/avicenna">Avicenna Theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	<nav class="nav social">
+		<div class="flat">
+			{{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} | {{ end }}
+			Built with <a href="https://github.com/zulkiflizaki/personal-website-hugo" target="_blank" rel="noopener">Github</a>,
+			Netlify and the
+			<a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+			<a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>
+		</div>
 	</nav>
 </div>
 
