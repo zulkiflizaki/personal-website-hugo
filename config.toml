@@ -20,7 +20,7 @@ summaryLength = 20
 [params]
   subtitle= "Software Engineer"
   interests="Embedded Software and Real-Time Systems, Model-Based Development, Software Analysis and Design"
-  cv_name= "cv-zulkiflizaki-2020.pdf"
+  cv_name= "resume-zulkiflizaki-2021.pdf"
   blog="/post/"
   home="/"
 
@@ -35,7 +35,7 @@ summaryLength = 20
 [[params.affilation]]
   name = "Universiti Sains Malaysia"
   position = "RLKA Fellow"
-  contact = "zulkiflizaki@gmail.com"
+  contact = "zulkiflizaki@hotmail.com"
 
 [[params.social]]
   name = "GitHub"
