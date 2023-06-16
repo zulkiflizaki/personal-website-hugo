@@ -63,18 +63,35 @@ summaryLength = 20
    """
 [[params.introduction.paragraph]]
   text="""
-  Previously, I received my M.Sc. in Computer Science from University Teknologi Malaysia, Johor Bahru, Malaysia. My research focus on software analysis and design, specifically model-based development. I applied model-based analysis and design on the development of embedded software and real-time systems under the supervision of Associate Prof. Dr. Dayang Norhayati Abang Jawawi.
+  Previously, I received M.Sc. in Computer Science from University Teknologi Malaysia, Johor Bahru, Malaysia. My research focus on software analysis and design, specifically model-based development. I applied model-based analysis and design on the development of embedded software and real-time systems under the supervision of Associate Prof. Dr. Dayang Norhayati Abang Jawawi.
   """
-
 
 [[params.projects]]
 	[[params.projects.project]]
-		name = "Automated Traceability Recovery Method for Model-Based Software Artefacts"
-		description  = "A research tool for facilitate trace links recovery for model-based software artefacts of embedded software."
+		name = "3D Model Reconstructor for Mobile Device"
+		description  = "TBD"
 		project_page = ""
 		code_link = ""
 		blog_link = ""
 
+[[params.projects]]
+	[[params.projects.project]]
+		name = "Automated Traceability Recovery Method for Model-Based Software Artefacts"
+		description  = "A research tool to facilitate trace links recovery for model-based software artefacts of embedded software."
+		project_page = ""
+		code_link = ""
+		blog_link = ""
+
+[[params.publications]]
+  year="2022"
+
+  [[params.publications.paper]]
+		name = "Dynamic mobile anchor path planning for underwater wireless sensor networks"
+		authors = "Mohammad Hafiz Mohamed, Kamalrulnizam Abu Bakar, Ismail Fauzi Isnin, __M Zulkifli M Zaki__, Herman, Fatima Tul Zuhra"
+		dest  = "TELKOMNIKA Telecommunication, Computing, Electronics and Control"
+		link = "http://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/19016"
+		code_link = ""
+		blog_link = ""
 
 [[params.publications]]
   year="Preprint"
