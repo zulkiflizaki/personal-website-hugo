@@ -1,6 +1,6 @@
 baseURL = "https://www.zulkiflizaki.my"
 languageCode = "en-us"
-title = "Zulkifli Zaki"
+title = "Ts. Zulkifli Zaki"
 # theme = "avicenna"
 
 # Your Google analytics code.
@@ -18,7 +18,7 @@ paginate = 10
 summaryLength = 20
 
 [params]
-  subtitle= "Software Engineer"
+  subtitle= "Educator | Professional Technologist"
   interests="Embedded Software and Real-Time Systems, Model-Based Development, Software Analysis and Design"
   cv_name= "resume-zulkiflizaki-2021.pdf"
   blog="/post/"
@@ -28,14 +28,14 @@ summaryLength = 20
   featherIconsCDN = true
 
 [[params.affilation]]
-  name = "RWTH Aachen University"
-  position = "PhD Student"
-  contact = "zaki@embedded.rwth-aachen.de"
+  name = "SEGi University and Colleges"
+  position = "Educator and Researcher"
+  contact = "zulkiflizaki@segi.edu.my"
 
 [[params.affilation]]
-  name = "Universiti Sains Malaysia"
-  position = "RLKA Fellow"
-  contact = "zulkiflizaki@hotmail.com"
+  name = "RWTH Aachen University"
+  position = "PhD Associate Reseacher"
+  contact = "zaki@embedded.rwth-aachen.de"
 
 [[params.social]]
   name = "GitHub"
@@ -59,7 +59,7 @@ summaryLength = 20
 
 [[params.introduction.paragraph]]
   text="""
-  Currently finishing PhD at Lehrstuhl Informatik 11 - Embedded Software of RWTH Aachen University, Germany under the supervision of Prof. Dr. -Ing. Stefan Kowalewski.
+  Completing PhD at Lehrstuhl Informatik 11 - Embedded Software of RWTH Aachen University, Germany under the supervision of Prof. Dr. -Ing. Stefan Kowalewski.
    """
 [[params.introduction.paragraph]]
   text="""
@@ -69,7 +69,7 @@ summaryLength = 20
 
 [[params.projects]]
 	[[params.projects.project]]
-		name = "Automated Traceability Recovery Tool for Model-Based Software Artefacts"
+		name = "Automated Traceability Recovery Method for Model-Based Software Artefacts"
 		description  = "A research tool for facilitate trace links recovery for model-based software artefacts of embedded software."
 		project_page = ""
 		code_link = ""
